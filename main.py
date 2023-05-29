@@ -1,8 +1,8 @@
-from BBC_Data_Loader import BBCDataLoader
-from Demo_Weather_Data_Generator import DemoWeatherDataGenerator
-from Evaluator import Evaluator
-from MNIST_Data_Loader import MNISTDataLoader
-from util import AccuracyPlotter
+from data_loaders.BBC_Data_Loader import BBCDataLoader
+from data_loaders.Demo_Weather_Data_Generator import DemoWeatherDataGenerator
+from utils.Evaluator import Evaluator
+from data_loaders.MNIST_Data_Loader import MNISTDataLoader
+from utils.util import AccuracyPlotter
 
 
 def main():

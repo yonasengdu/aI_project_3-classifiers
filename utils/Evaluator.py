@@ -1,7 +1,7 @@
-from Feature_Extractor import FeatureExtractor
-from Logistic_Regression_Classifier import LogisticRegressionClassifier
-from Naive_Bayes_Classifier import NaiveBayesClassifier
-from util import DataSplitter
+from utils.Feature_Extractor import FeatureExtractor
+from classifiers.Logistic_Regression_Classifier import LogisticRegressionClassifier
+from classifiers.Naive_Bayes_Classifier import NaiveBayesClassifier
+from utils.util import DataSplitter
 
 
 class Evaluator:
